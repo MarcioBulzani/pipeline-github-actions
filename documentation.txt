@@ -1,0 +1,7 @@
+Precisa setar as variaveis na linha de comando.
+
+export TF_VAR_aws_key_pub="valorDaChave"
+
+export TF_VAR_azure_key_pub="valorDaChave"
+
+tem que configurar as variaveis no gitlab.
