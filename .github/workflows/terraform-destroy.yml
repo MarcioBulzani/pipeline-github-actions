@@ -6,7 +6,7 @@ env:
   ARM_CLIENT_ID: ${{secrets.ARM_CLIENT_ID}}
   ARM_TENANT_ID: ${{secrets.ARM_TENANT_ID}}
   ARM_SUBSCRIPTION_ID: ${{secrets.ARM_SUBSCRIPTION_ID}}
-  ARM_CLIENT_SECRET: ${{secrets.ARM_SUBSCRIPTION_ID}}
+  ARM_CLIENT_SECRET: ${{secrets.ARM_CLIENT_SECRET}}
   TF_VAR_aws_key_pub: ${{secrets.TF_VAR_aws_key_pub}}
   TF_VAR_azure_key_pub: ${{secrets.TF_VAR_azure_key_pub}}
 jobs:
